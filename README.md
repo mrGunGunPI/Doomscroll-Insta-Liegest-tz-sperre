@@ -1,4 +1,4 @@
-# Doomscroll-Insta-Liegest-tz-sperre
+# Doomscroll
 Dieses repo gehört zu einer Handy-App:
 
 Doomscroll: Deine Zeit. Dein Körper. Deine Kontrolle.
@@ -17,3 +17,4 @@ Du legst fest, welche Apps blockiert werden. Alle deine Daten, von den Kamerabil
 
 WARUM DOOMSCROLL?
 Wir glauben nicht an strikte Verbote, sondern an positive Verstärkung. Doomscroll verwandelt eine schlechte Angewohnheit – das ziellose Scrollen – in einen Auslöser für etwas Gutes: Bewegung, Achtsamkeit und eine gesündere Beziehung zu deinem Smartphone.Bist du bereit, deine verlorene Zeit zurückzuerobern und jeden Tag ein bisschen stärker zu werden? 
+
