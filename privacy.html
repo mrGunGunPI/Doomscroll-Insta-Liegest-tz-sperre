@@ -17,11 +17,12 @@
     <p>The App requests permission to access your physical activity data (Step Counter). This data is processed locally on your device to convert your steps into "Screen Time" and game points. This data is used solely for the App's core functionality.</p>
 
     <h3>App Usage Stats</h3>
-    <p>The App requests "Usage Access" permissions to detect which apps you are using. This is required to block distracting apps when your time limit expires. This monitoring happens strictly locally on your device.</p>
+    <p>The App requests "Usage Access" permissions to detect which apps you are using. This is required to block distracting apps when your time limit expires. This monitoring happens strictly locally on your device and no Data is sendt to any external device.</p>
 
     <h3>Leaderboard and Data Sharing</h3>
     <p>If you choose to use the Leaderboard feature, specific game data (Nickname, Step Count, Exercise Repetitions, Points) will be synchronized via <strong>Google Firebase Realtime Database</strong>. 
-    <br>We implement End-to-End Encryption (E2EE) for this data. Your personal game stats are encrypted on your device before being uploaded. Only users with whom you have explicitly shared your unique invite link possess the key to decrypt and view this data.</p>
+    <br>We implement End-to-End Encryption (E2EE) for this data. Your personal game stats are encrypted on your device before being uploaded. Only users with whom you have explicitly shared your unique invite link possess the key to decrypt and view this data.
+    <br><strong>No Data, exept for the Data needed for the Leaderboard (Total Steps; Total Points; Total Pushups; Total Jumpingjacks; Anonymus ID), is used or sendt to any server or data collecting point. We do not use Google analytics for the Data in the Realtime Database, to keep your data save.</strong></p>
 
     <h2>2. Third-Party Services</h2>
     <p>We use the following third-party services to facilitate the App's functionality:</p>
@@ -30,7 +31,7 @@
     </ul>
 
     <h2>3. Data Retention and Deletion</h2>
-    <p>The App prioritizes data minimization. Since we do not maintain traditional user accounts with email addresses, deleting the App from your device will remove your local data and encryption keys. Data on the Leaderboard is linked to an anonymous ID.</p>
+    <p>The App prioritizes data minimization. Since we do not maintain traditional user accounts with email addresses, deleting the App from your device will remove your local data and encryption keys. Data on the Leaderboard is linked to an anonymous ID. It is not possible to delete data from the Realtime Database because of the End to end Encryption.</p>
 
     <h2>4. Contact Us</h2>
     <p>If you have any questions about this Privacy Policy, please contact us at:</p>
